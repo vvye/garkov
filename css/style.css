@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Comic Neue';
+    src: url('../fonts/ComicNeue-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ComicNeue-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/ComicNeue-Bold.woff') format('woff'), /* Modern Browsers */ url('../fonts/ComicNeue-Bold.woff2') format('woff2'), /* Even Moderner Browsers */ url('../fonts/ComicNeue-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:active {
+    font-weight: bold;
+    color: #003366;
+}
+
+a:hover {
+    color: #336699;
+}
+
+body {
+    font: 14px sans-serif;
+    background-color: #e0eeff;
+}
+
+header {
+    background-color: #00274e;
+    padding: 1em 0 2em;
+    color: white;
+    text-align: center;
+}
+
+header a:link, header a:visited, header a:active {
+    font-weight: normal;
+    color: #6699CC;
+}
+
+header a:hover {
+    color: #77aadd;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form input[type="button"] {
+    display: block;
+    margin: 0 auto 2em;
+    padding: 0.25em 1.5em;
+    font: bold 1.2em sans-serif;
+    letter-spacing: 1px;
+}
+
+form table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+form table td {
+    width: 55%;
+    border-top: 1px solid #8BA4C6;
+    border-bottom: 1px solid #8BA4C6;
+    padding: 1em 0.25em;
+    vertical-align: top;
+}
+
+form table td.prompt {
+    width: 45%;
+    text-align: right;
+}
+
+form label {
+    margin: 0 0.5em 0 0.25em;
+}
+
+form input[type="number"] {
+    max-width: 50px;
+    padding: 1px 0 1px 3px;
+}
+
+#info {
+    max-width: 600px;
+    margin: 2em auto;
+    font-size: 11px;
+}
+
+#strip-container {
+    position: relative;
+    width: 612px;
+    height: 184px;
+    margin: 2em auto;
+    border: 1px solid;
+    background-color: white;
+}
+
+.strip {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.bubble-container {
+    position: absolute;
+    overflow: hidden;
+}
+
+.bubble-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.bubble-text {
+    display: table-cell;
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
